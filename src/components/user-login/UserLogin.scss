@@ -1,0 +1,18 @@
+.redirect-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+
+    .redirect-link {
+      color: #3498db;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #1abc9c;
+        text-decoration: underline;
+      }
+    }
+  }
